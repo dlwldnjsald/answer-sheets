@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FrontEnd : JavaScript</title>
+
+    <!-- 외부 CSS 파일로 스타일 부분 연결 -->
+    <link rel="stylesheet" href="../style/frontend-test.css"> 
+
+    <!-- 외부 js 파일로 스크립트 부분 연결-->
+    <script src="../javascript/frontend-test.js"></script>
+
+</head>
+<!-- javascript 폴더 내의 frontend-test.js에 답안을 작성한 후 본 페이지에 불러오세요 -->
+
+<body>
+    <h1>FrontEnd 평가 답안지 3: JavaScript</h1>
+    <p>수강생 이름: <!-- 수강생 이름을 기입하세요 --></p>
+
+    <h2>목차</h2>
+    <!-- 평가 지시서의 지시대로 아래 항목들을 이용, 목차를 만들어 주십시오. (하이퍼링크 포함) -->
+    <ul>
+        <li><p><a href="../answer/answer-ft-html.html">평가 답안지 1: HTML</a></p></li>
+        <li><p><a href="../answer/answer-ft-css.html">FrontEnd 평가 답안지 2: CSS</a></p></li>
+        <li><p><a href="../answer/answer-ft-js.html">FrontEnd 평가 답안지 3: JavaScript</a></p></li>
+    </ul>
+
+    <h3>대화상자</h3>
+    <!-- 아래 버튼을 클릭하면 alert 창으로 인사 메시지를 출력합니다. 이벤트는 -->
+    <p><button id="btnHello">alert 창으로 인사</button></p>
+
+    <script>
+        // 버튼 요소를 가져와서 클릭 이벤트를 추가합니다.
+        var btnHello = document.getElementById('btnHello');
+        
+        btnHello.addEventListener('click', function() {
+            // 버튼을 클릭하면 alert 창에 인사 메시지를 출력합니다.
+            alert('안녕하세요!');
+        });
+    </script>
+
+    <h3></h3>
+</body>
+
+</html>
